@@ -14,7 +14,6 @@ body{
     height: 120px;
     width: 100%;
     background-color: #ffffff;
-    
 }
 .header{
     display: flex;
@@ -60,8 +59,8 @@ li a {
     justify-content: space-between;
 }
 li a:hover:not(.active) {
-    background-color: #054C73;
-    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    color:#333333;
     border-radius: 10px;
 }
 .active {
@@ -249,7 +248,7 @@ li a:hover:not(.active) {
     flex-direction: column;
     width: 100%;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #FCFCFC;
 }
 .section5text{
     display: flex;
@@ -292,6 +291,167 @@ h3{
     align-content: center;
     justify-content: center;
 }
-
-
-
+.section6{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 0px 200px 0px;
+    justify-content: center;
+    background-color: #FCFCFC;
+}
+.section6text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 0px 0px;
+    margin: 50px 50px 20px 50px;
+}
+.section6text1{
+    font-size: 36px;
+    color: #333333;
+    font-weight: bolder;
+}
+.section6text2{
+    font-size: 20px;
+    color: #333333;
+    font-weight: normal;
+    margin: 1px 0px;
+}
+.section6image{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.section6image1, .section6image2, .section6image3{
+    display: flex;
+    width: 381px;
+    height: 445px; 
+    margin: 50px 10px 30px 10px;
+}
+h3{
+    display: flex;
+    font-size: 26px;
+    color: #333333;
+    margin: 0px 0px 20px 10px;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+h5{
+    display: flex;
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 10px 20px 10px;
+    font-weight: normal;
+    text-align: center;
+    justify-content: center;
+}
+.section7{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    background-color: #F2F5FF;
+}
+.section7text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.section7text1{
+    display: flex;
+    font-size: 32px;
+    color: #333333;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.section7text2{
+    display: flex;
+    font-size: 20px;
+    color: #333333;
+    padding: 5px 10px 5px 10px;
+    font-weight: normal;
+    text-align: center;
+    word-spacing: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.inputemailfield{
+    margin: 35px 2px 20px 2px;
+    border: 1px solid #054C73;
+    width: 70%;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px 10px 10px 10px;
+    font-family: calibri;
+    font-size: 16px;
+}
+#signup{
+    background-color: #054C73;
+    color: white;
+    border: 1px solid #054C73;
+    border-radius: 0px 5px 5px 0px;
+    font-family: calibri;
+    font-size: 16px;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px -6px;
+}
+.footer{
+    display: flex;
+    background-color: #03344F;
+    width: 100%;
+    height: 386px;
+    padding: 0px 0px 30px 0px;
+}
+.footertext{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px 40px 80px;
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+}
+.footertext1, .footertext3{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 10px 0px 0px 0px;
+}
+.footertext2{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 30px 0px 30px 0px;
+}
+.footerimage{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 10px 10px 10px 10px;
+}
+.footerimagetext{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 60px 0px 0px 20px;
+}
+.footerimage_{
+    display: flex;
+    width: 100%;
+}
+.footerimage1{
+    display: flex;
+    width: 175px;
+    height: 185px;
+    justify-content: center;
+    margin: 20px 5px 40px 20px;
+}
